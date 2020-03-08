@@ -1,17 +1,17 @@
 import React from "react";
 import styles from "./CardFront.module.scss";
 
-const CardFront = (props) => {
+const CardFront = ({project}) => {
 
-  const {projectImage, projectTitle, projectStrapline, projectLink} = props;
+  const {projectImage, projectTitle, projectStrapline, projectLiveLink, projectRepoLink} = project;
 
   return (
-    <section>
+    <section className={styles.cardFront}>
       <img src={projectImage} alt= {`${projectTitle} picture`} />
       <h3>{projectTitle}</h3>
       <p>{projectStrapline}</p>
-      <button>More</button>
-      <a href= {projectLink}>GitHub</a>
+      <a href= {projectLiveLink}>Link</a>
+      <a href= {projectRepoLink}>GitHub</a>
     </section>
   );
 };
