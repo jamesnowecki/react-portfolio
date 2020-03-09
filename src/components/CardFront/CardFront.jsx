@@ -10,8 +10,7 @@ const CardFront = ({project}) => {
       <img src={projectImage} alt= {`${projectTitle} picture`} />
       <h3>{projectTitle}</h3>
       <p>{projectStrapline}</p>
-      <a href= {projectLiveLink}>Link</a>
-      <a href= {projectRepoLink}>GitHub</a>
+      <p><a href= {projectLiveLink}>Launch</a> | <a href= {projectRepoLink}>GitHub</a></p>
     </section>
   );
 };

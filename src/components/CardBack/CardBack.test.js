@@ -8,3 +8,13 @@ describe("CardBack tests", () => {
     component =
   })
 });
+import React from "react";
+import CardBack from "./CardBack";
+
+describe("CardBack tests", () => {
+  let component;
+
+  beforeEach(() => {
+    component =
+  })
+});
