@@ -1,23 +1,9 @@
-import React from 'react';
-import styles from './App.module.scss';
-import projects from './data/projects';
-import CardFront from './components/CardFront'
+import React from "react";
+import styles from "./App.module.scss";
+import Router from "./containers/Routes";
 
 const App = () => {
-  return (
-    <>
-    <div className={styles.App}>
-      Rockin in the free world
-    </div>
-    <div>     
-      {projects.map(project => (
-      <div>
-        <CardFront project={project} />
-      </div>
-    ))}
-    </div>
-    
-    </>
-  );
-}
+  return <Router />;
+};
+
 export default App;

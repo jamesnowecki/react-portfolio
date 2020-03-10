@@ -39,5 +39,4 @@ const alleywayInvaders = new Project (
 const projectArray = [santorini, morseCode, alleywayInvaders];
 
 
-
 export default projectArray;
