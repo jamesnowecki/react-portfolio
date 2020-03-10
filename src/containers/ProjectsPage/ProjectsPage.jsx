@@ -5,13 +5,16 @@ import CardFront from "../../components/CardFront";
 
 const ProjectsPage = () => {
   return (
-    <div className={styles.projectsPage}>     
-    {projects.map(project => (
-    <div>
-      <CardFront project={project} />
-    </div>
-  ))}
-  </div>
+    <section className={styles.projectsPage}>
+      <h2>Projects</h2>
+      <section className={styles.projectsBox}>
+        {projects.map(project => (
+          <div>
+            <CardFront project={project} />
+          </div>
+        ))}
+      </section>
+    </section>
   );
 };
 
