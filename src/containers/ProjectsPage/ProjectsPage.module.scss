@@ -5,6 +5,7 @@
     margin: 0;
     padding: 5vw;
     width: 100vw;
+    background-color: $tertiary-color;
 
     h2 {
         color: $primary-color;
@@ -16,5 +17,10 @@
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
+        // display: none;
+
+        div {
+            margin-bottom: $base-spacing * 5;
+        }
     }
 }
