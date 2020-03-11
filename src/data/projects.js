@@ -38,7 +38,7 @@ const alleywayInvaders = new Project (
 
 const vojo = new Project (
     "Vojo",
-    "",
+    "../../assets/vojo.png",
     "https://vojo-bbe4f.web.app/",
     "https://github.com/nology-tech/vojo",
     "Group client project build with React, deployed and hosted with Firebase",
