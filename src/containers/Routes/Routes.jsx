@@ -6,11 +6,11 @@ import NotFound from "../NotFound";
 
 const Routes = () => {
   return (
-  <Router>
-    <Redirect noThrow from= "/" to= "projects-page" />
-    <ProjectsPage path= "projects-page" />
-    <NotFound default/>
-  </Router>
+  <div className={styles.router}><Router>
+  <Redirect noThrow from= "/" to= "projects-page" />
+  <ProjectsPage path= "projects-page" />
+  <NotFound default/>
+  </Router></div>
   );
 };
 

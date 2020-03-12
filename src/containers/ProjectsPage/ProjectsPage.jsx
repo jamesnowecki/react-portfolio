@@ -5,6 +5,7 @@ import CardFront from "../../components/CardFront";
 
 const ProjectsPage = () => {
   return (
+    <>
     <section className={styles.projectsPage}>
       <h2>Projects</h2>
       <div className={styles.projectsBox}>
@@ -15,6 +16,7 @@ const ProjectsPage = () => {
         ))}
       </div>
     </section>
+    </>
   );
 };
 
