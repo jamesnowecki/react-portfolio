@@ -7,13 +7,13 @@ const ProjectsPage = () => {
   return (
     <section className={styles.projectsPage}>
       <h2>Projects</h2>
-      <section className={styles.projectsBox}>
+      <div className={styles.projectsBox}>
         {projects.map(project => (
           <div>
             <CardFront project={project} />
           </div>
         ))}
-      </section>
+      </div>
     </section>
   );
 };

@@ -1,0 +1,39 @@
+@import "../../variables.scss";
+
+.profileBar {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: $primary-color;
+
+
+    h1 {
+        color: $secondary-color;
+        text-align: center;
+        margin: 0;
+        margin-top: $base-spacing * 2;
+
+        }
+
+    h2 {
+        color: $secondary-color;
+        text-align: center;
+        margin: 0;
+        padding-bottom: $base-spacing * 2;
+        
+    
+    }
+
+    .facePic {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        // margin-top: $base-spacing * 3;
+    }
+
+    img {
+        border-radius: 100%;
+        width: 40vw;
+        height: 40vw;
+        margin-top: $base-spacing * 8;
+    }
+}
