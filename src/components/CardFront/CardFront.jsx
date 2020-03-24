@@ -6,7 +6,7 @@ const CardFront = ({project}) => {
 
   return (
     <section className={styles.cardFront}>
-      <img src={projectImage} alt= {`${projectTitle} picture`} />
+      <img src={projectImage} alt= {`${projectTitle}`} />
       <h3>{projectTitle}</h3>
       <p>{projectStrapline}</p>
       <p><a href= {projectLiveLink}>Launch</a> | <a href= {projectRepoLink}>GitHub</a></p>
