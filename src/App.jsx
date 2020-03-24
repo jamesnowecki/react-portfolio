@@ -1,12 +1,19 @@
-import React from 'react';
-import styles from './App.module.scss';
+import React from "react";
+import styles from "./App.module.scss";
+import Router from "./containers/Routes";
+import ProfileBar from "./containers/ProfileBar";
+// import { faHome } from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-function App() {
+const App = () => {
+
   return (
-    <div className={styles.App}>
-      Rockin in the free world
-    </div>
-  );
-}
+  
+  <div className={styles.app}>
+    <ProfileBar />
+    <Router />
+  </div>
+
+  )};
 
 export default App;
