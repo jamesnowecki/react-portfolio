@@ -1,20 +1,9 @@
 import React from "react";
 import CardBack from "./CardBack";
 
-describe("CardBack tests", () => {
-  let component;
+  describe("CardBack tests", () => {
+    it("should render", () => {
+      expect(render(<CardBack />)).toBeTruthy();
+    });
 
-  beforeEach(() => {
-    component =
-  })
-});
-import React from "react";
-import CardBack from "./CardBack";
-
-describe("CardBack tests", () => {
-  let component;
-
-  beforeEach(() => {
-    component =
-  })
 });

@@ -2,9 +2,9 @@ import React from "react";
 import NotFound from "./NotFound";
 
 describe("NotFound tests", () => {
-  let component;
+    it("should render", () => {
+      expect(render(<NotFound />)).toBeTruthy();
+    });
 
-  beforeEach(() => {
-    component =
-  })
+
 });

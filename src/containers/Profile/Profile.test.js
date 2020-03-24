@@ -2,9 +2,8 @@ import React from "react";
 import Profile from "./Profile";
 
 describe("Profile tests", () => {
-  let component;
+    it("should render", () => {
+      expect(render(<Profile />)).toBeTruthy();
+    });
 
-  beforeEach(() => {
-    component =
-  })
 });

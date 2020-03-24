@@ -2,9 +2,8 @@ import React from "react";
 import ProjectsPage from "./ProjectsPage";
 
 describe("ProjectsPage tests", () => {
-  let component;
+    it("should render", () => {
+      expect(render(<ProjectsPage />)).toBeTruthy();
+    });
 
-  beforeEach(() => {
-    component =
-  })
 });

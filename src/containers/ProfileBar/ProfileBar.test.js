@@ -2,9 +2,8 @@ import React from "react";
 import ProfileBar from "./ProfileBar";
 
 describe("ProfileBar tests", () => {
-  let component;
+    it("should render", () => {
+      expect(render(<ProfileBar />)).toBeTruthy();
+    });
 
-  beforeEach(() => {
-    component =
-  })
 });

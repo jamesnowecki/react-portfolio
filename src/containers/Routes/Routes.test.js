@@ -2,9 +2,8 @@ import React from "react";
 import Routes from "./Routes";
 
 describe("Routes tests", () => {
-  let component;
+    it("should render", () => {
+      expect(render(<Routes />)).toBeTruthy();
+    });
 
-  beforeEach(() => {
-    component =
-  })
 });
