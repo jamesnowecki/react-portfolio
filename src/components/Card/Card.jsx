@@ -8,16 +8,15 @@ const Card = ({project}) => {
 
   const [isFaceUp, toggleFaceUp] = useState(true);
 
-  const flipStyle = isFaceUp ? "" : styles.faceDown;
+  const cardFrontJSX =  <div className={styles.front}><CardFront project={project} /></div>;
+
+  const cardBackJSX = <div className={styles.back}><CardBack project={project} /></div>;
+
+  const cardJSX = isFaceUp ? cardFrontJSX : cardBackJSX;
   
     return (
-      <section className={`${styles.projectCard} ${flipStyle}`} onClick= {() => toggleFaceUp(!isFaceUp)}>
-        <div className={styles.front}>
-          <CardFront project={project} />
-        </div>
-        <div className={styles.back}>
-          <CardBack project={project} />
-        </div>
+      <section className={`${styles.projectCard}`} onClick= {() => toggleFaceUp(!isFaceUp)}>
+       {cardJSX}
       </section>
     );
   };

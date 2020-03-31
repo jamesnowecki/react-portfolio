@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./ProjectsPage.module.scss";
 import projects from "../../data/projects";
 import CardFront from "../../components/CardFront";
+import Card from "../../components/Card";
 
 const ProjectsPage = () => {
   return (
@@ -10,7 +11,7 @@ const ProjectsPage = () => {
       <div className={styles.projectsBox}>
         {projects.map(project => (
           <div>
-            <CardFront project={project} />
+            <Card project={project} />
           </div>
         ))}
       </div>
