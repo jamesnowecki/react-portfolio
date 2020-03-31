@@ -1,6 +1,10 @@
 import VojoPic from '../assets/vojo-pic.png';
 import ToDoListPic from '../assets/to-do-list-pic.jpg';
 import SheaFacePic from '../assets/strange-eyes.jpg';
+import MorseCodePic from '../assets/morse-code-pic.jpg';
+import SantoriniPic from '../assets/santorini-pic.jpg';
+import AlleywayInvadersPic from '../assets/alleyway-invaders-pic.jpg';
+
 
 
 class Project {
@@ -16,7 +20,7 @@ class Project {
 
 const santorini = new Project (
     "Santorini",
-    "https://static.independent.co.uk/s3fs-public/thumbnails/image/2019/08/07/14/oia-santorini.jpg?w968h681",
+    SantoriniPic,
     "https://jamesnowecki.github.io/santorini/",
     "https://github.com/jamesnowecki/santorini",
     "Vanilla JavaScript simulation of the Gordon Hamilton board game.",
@@ -25,7 +29,7 @@ const santorini = new Project (
 
 const morseCode = new Project (
     "Morse-code translater",
-    "https://www.thoughtco.com/thmb/tzsqsnVPfCoo8RCsmGWGjp_tXog=/1500x1000/filters:no_upscale():max_bytes(150000):strip_icc()/international-morse-code1-5a78ad0b642dca0037cd818c.jpg",
+    MorseCodePic,
     "https://jamesnowecki.github.io/morse-code-test/",
     "https://github.com/jamesnowecki/morse-code-test",
     "Test to demonstrate basic understanding of JS array iterators and functions.",
@@ -34,7 +38,7 @@ const morseCode = new Project (
 
 const alleywayInvaders = new Project (
     "Alleyway Invaders",
-    "https://regmedia.co.uk/2013/03/04/invader.jpg?x=442&y=293&crop=1",
+    AlleywayInvadersPic,
     "https://jamesnowecki.github.io/alleyway-invaders/",
     "https://github.com/jamesnowecki/alleyway-invaders",
     "Example 5-hour timed tech-test to demonstrate JS OOP concepts.",
