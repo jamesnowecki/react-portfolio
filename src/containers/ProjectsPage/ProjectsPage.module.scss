@@ -1,0 +1,24 @@
+@import "../../variables.scss";
+
+.projectsPage {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 5vw;
+    width: 100%;
+    background-color: $tertiary-color;
+
+    h2 {
+        color: $primary-color;
+    }
+
+    .projectsBox {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+
+        div {
+            margin-bottom: $base-spacing * 5;
+        }
+    }
+}

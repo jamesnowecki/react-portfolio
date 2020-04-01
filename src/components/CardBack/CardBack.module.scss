@@ -1,0 +1,21 @@
+@import "../../variables.scss";
+
+.cardBack {
+    width: 100%;
+    background-color: $tertiary-color;
+
+    h3 {
+        color: $primary-color;
+        margin-bottom: $base-spacing * 2;
+    }
+
+    p {
+        color: $secondary-color;
+        margin-bottom: $base-spacing * 2;
+        text-align: justify;
+    }
+
+    a {
+        color: $secondary-color;
+    }
+}
