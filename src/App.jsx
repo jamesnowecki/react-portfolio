@@ -9,8 +9,12 @@ const App = () => {
   return (
   
   <div className={styles.app}>
-    <ProfileBar />
-    <Router />
+    <section className={styles.profileBar}>
+      <ProfileBar />
+    </section>
+    <section className={styles.mainContent}>
+      <Router />
+    </section>
   </div>
 
   )};
