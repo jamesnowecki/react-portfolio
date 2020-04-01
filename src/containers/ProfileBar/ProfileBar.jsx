@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./ProfileBar.module.scss";
 import FacePic from "../../assets/face-photo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import CVPdf from "../../assets/cv-james-nowecki.pdf";
 
 
 const ProfileBar = () => {
@@ -15,16 +16,16 @@ const ProfileBar = () => {
       <h2>
         <section className={styles.skillsGrid}>
         <div className={styles.cell}>
-          <FontAwesomeIcon icon={["fas", "home"]} />
+          <a href="https://jamesnowecki.com"><FontAwesomeIcon icon={["fas", "home"]} /></a>
         </div>
         <div className={styles.cell}>
-          <FontAwesomeIcon icon={["fas", "file-pdf"]} />
+          <a href={CVPdf} target="_blank"><FontAwesomeIcon icon={["fas", "file-pdf"]} /></a>
         </div>
         <div className={styles.cell}>
-          <FontAwesomeIcon icon={["fab", "linkedin"]} />
+          <a href="https://www.linkedin.com/in/jamesnowecki/" target="_blank"><FontAwesomeIcon icon={["fab", "linkedin"]} /></a>
         </div>
         <div className={styles.cell}>
-          <FontAwesomeIcon icon={["fab", "github-square"]} />
+          <a href="https://github.com/jamesnowecki" target="_blank"><FontAwesomeIcon icon={["fab", "github-square"]} /></a>
         </div>
         </section>
       </h2>
