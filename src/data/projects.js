@@ -23,7 +23,7 @@ const santorini = new Project (
     SantoriniPic,
     "https://jamesnowecki.github.io/santorini/",
     "https://github.com/jamesnowecki/santorini",
-    "Vanilla JavaScript simulation of the Gordon Hamilton board game.",
+    "Vanilla JavaScript simulation of the classic Gordon Hamilton board game.",
     "One of the mentors who pushed me to learn to code suggested simulating one of our favourite 2-player abstract board games as a useful exercise in learning OOP and functional programming. It provided a brilliant platform for validating the OOP and functional programming concepts we were learning on the course as I went along and my skills improved.",
 );
 

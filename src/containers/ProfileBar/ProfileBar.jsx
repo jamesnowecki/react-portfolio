@@ -11,7 +11,7 @@ const ProfileBar = () => {
       <div className={styles.facePic}>
       <img src={FacePic} alt="James Nowecki face"/>
       </div>
-      <h1>JAMES <span>NOWECKI</span></h1>
+      <h2 className={styles.name}>JAMES <span>NOWECKI</span></h2>
       <h2>SOFTWARE <span>DEVELOPER</span></h2>
       <h2>
         <section className={styles.skillsGrid}>

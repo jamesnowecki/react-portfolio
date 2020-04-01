@@ -5,19 +5,11 @@
     box-sizing: border-box;
     background-color: $primary-color;
 
-    h1 {
-        color: $secondary-color;
-        text-align: center;
-        margin: 0;
-        margin-top: $base-spacing * 2;
-    }
-
     h2 {
         color: $secondary-color;
         text-align: center;
         margin: 0;
         padding-bottom: $base-spacing * 6;
-
 
         .skillsGrid {
             margin: 0 auto;
@@ -29,6 +21,11 @@
                 height: 100%;
             }
         }
+    }
+
+    .name {
+        margin-top: $base-spacing * 4;
+        padding-bottom: $base-spacing;
     }
 
     span {
@@ -53,12 +50,35 @@
 @media only screen and (min-width: 426px) {
 
     .profileBar {
-        width: 30vw;
+        width: 25vw;
+        min-width: 180px;
         height: 100%;
 
         img {
-            width: 15vw;
-            height: 15vw; 
+            width: 50%;
+            height: 50%
+        }
+
+        .facePic {
+            padding-top: 20vh;
+        }
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+    .profileBar {
+        width: 25vw;
+        height: 100%;
+
+        img {
+            width: 50%;
+            height: 50%; 
+        }
+
+        .facePic {
+            padding-top: 20vh;
         }
     }
 
