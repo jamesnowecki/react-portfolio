@@ -74,8 +74,5 @@ const sheaFace = new Project (
 
 const projectArray = [santorini, morseCode, alleywayInvaders, vojo, toDoList, sheaFace];
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 2f0550a3033d7b77c393d96dcd7b855a4edcb413
 export default projectArray;
