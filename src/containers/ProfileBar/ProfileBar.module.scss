@@ -15,7 +15,29 @@
             margin: 0 auto;
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr;
-            width: 60%;        
+            width: 60%; 
+
+            -webkit-animation: skillsGrid 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+            animation: skillsGrid 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+
+            @-webkit-keyframes skillsGrid {
+                0% {
+                  opacity: 0;
+                }
+                100% {
+                  opacity: 1;
+                }
+              }
+
+              @keyframes skillsGrid {
+                0% {
+                  opacity: 0;
+                }
+                100% {
+                  opacity: 1;
+                }
+              }
+
 
             .cell {
                 height: 100%;
@@ -26,16 +48,83 @@
     .name {
         margin-top: $base-spacing * 4;
         padding-bottom: $base-spacing;
+
+        -webkit-animation: name 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+        animation: name 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+
+        @-webkit-keyframes name {
+            0% {
+              opacity: 0;
+            }
+            100% {
+              opacity: 1;
+            }
+          }
+
+          @keyframes name {
+            0% {
+              opacity: 0;
+            }
+            100% {
+              opacity: 1;
+            }
+          }
+
     }
 
     span {
         font-weight: 900;
     }
 
+    .job {
+        -webkit-animation: skillsGrid 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+        animation: skillsGrid 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+
+        @-webkit-keyframes skillsGrid {
+            0% {
+              opacity: 0;
+            }
+            100% {
+              opacity: 1;
+            }
+          }
+
+          @keyframes skillsGrid {
+            0% {
+              opacity: 0;
+            }
+            100% {
+              opacity: 1;
+            }
+          }
+
+    }
+
     .facePic {
         display: flex;
         flex-direction: row;
         justify-content: center;
+
+        -webkit-animation: facePic 0.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+        animation: facePic 0.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+
+        @-webkit-keyframes facePic {
+            0% {
+              opacity: 0;
+            }
+            100% {
+              opacity: 1;
+            }
+          }
+          
+          @keyframes facePic {
+            0% {
+              opacity: 0;
+            }
+            100% {
+              opacity: 1;
+            }
+          }
     }
 
     img {
@@ -45,6 +134,7 @@
         height: 40vw;
         margin-top: $base-spacing * 8;
     }
+      
 }
 
 @media only screen and (min-width: 426px) {
@@ -80,5 +170,4 @@
             padding-top: 20vh;
         }
     }
-
 }
