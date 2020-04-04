@@ -20,14 +20,7 @@
 
         .stack {
             display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-
-            .right {
-                p{
-                text-align: right;
-                }
-            }
+            flex-direction: column;
         }
     }
 
@@ -57,6 +50,19 @@
             div {
                 width: 25vw;
                 margin-bottom: $base-spacing * 5;
+            }
+        }
+
+        .experience {
+            .stack {
+                flex-direction: row;
+                justify-content: space-between;
+
+                .right {
+                    p {
+                    text-align: right;
+                    }
+                }
             }
         }
     }
