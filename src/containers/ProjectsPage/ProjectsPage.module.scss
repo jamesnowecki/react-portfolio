@@ -11,6 +11,14 @@
         color: $primary-color;
     }
 
+    .profile {
+        border-bottom: 1px solid $secondary-color;
+    }
+
+    .skills {
+        border-top: 1px solid $secondary-color;
+    }
+
     .projectsBox {
         width: 100%;
         display: flex;
