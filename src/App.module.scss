@@ -25,9 +25,17 @@
         flex-direction: row;
         height: 100%;
 
-        .mainContent{
+        .mainContent {
             width: 100%;
-            margin-left: 25vw;
+            margin-left: 180px;
         }
     }
+  }
+
+  @media only screen and (min-width: 730px) {
+      .app{
+          .mainContent {
+              margin-left: 25vw;
+          }
+      }
   }
