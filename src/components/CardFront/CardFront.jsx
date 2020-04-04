@@ -18,7 +18,6 @@ console.log(projectTechStack);
           {projectTechStack.map(tech => 
           <p>{tech}</p>)}
           </p>
-          {/* <p className={styles.techStack}>{projectTechStack}</p> */}
       </div>
     </section>
   );

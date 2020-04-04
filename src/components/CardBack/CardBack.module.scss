@@ -15,7 +15,26 @@
         text-align: justify;
     }
 
-    a {
-        color: $secondary-color;
+    .techBar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        p {
+            margin: 0;
+        }
+
+        .techStack {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            align-items: center;
+
+            p {
+                margin: 0 0 0 3px;
+                display: inline;
+            }
+        }
     }
 }
