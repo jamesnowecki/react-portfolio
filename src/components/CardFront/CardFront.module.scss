@@ -5,7 +5,6 @@
     background-color: $tertiary-color;
 
     img {
-        // object-fit: cover;
         width: 100%;
         height: 50%;
         border-radius: $base-spacing * 2;
@@ -20,5 +19,25 @@
         color: $secondary-color;
         margin-bottom: $base-spacing * 2;
         text-align: justify;
+    }
+
+    .techBar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        .techStack {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            align-items: center;
+    
+
+            p {
+                margin-left: 3px;
+                display: inline;
+            }
+        }
     }
 }

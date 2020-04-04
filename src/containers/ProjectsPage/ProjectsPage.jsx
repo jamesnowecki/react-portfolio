@@ -4,7 +4,6 @@ import projects from "../../data/projects";
 import Card from "../../components/Card";
 
 const ProjectsPage = () => {
-console.log(projects)
   return (
     <section className={styles.projectsPage}>
       <h2>Projects</h2>
