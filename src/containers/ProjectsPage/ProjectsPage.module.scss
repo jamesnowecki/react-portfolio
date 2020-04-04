@@ -15,8 +15,20 @@
         border-bottom: 1px solid $secondary-color;
     }
 
-    .skills {
+    .experience {
         border-top: 1px solid $secondary-color;
+
+        .stack {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            .right {
+                p{
+                text-align: right;
+                }
+            }
+        }
     }
 
     .projectsBox {

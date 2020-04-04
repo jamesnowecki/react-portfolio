@@ -3,6 +3,7 @@ import styles from "./ProjectsPage.module.scss";
 import projects from "../../data/projects";
 import Card from "../../components/Card";
 import PhDPDF from "../../assets/NoweckiThesis_PhD_2014.pdf";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const ProjectsPage = () => {
   return (
@@ -19,8 +20,39 @@ const ProjectsPage = () => {
           </div>
         ))}
       </div>
-      <div className={styles.skills}>
-        <h2>Skills</h2>
+      <div className={styles.experience}>
+        <h2>Experience</h2>
+        <section className={styles.stack}>
+          <div>
+            <p><FontAwesomeIcon icon={["fab", "git-alt"]} /> Source control with Git, GitHub flow</p>
+            <p><FontAwesomeIcon icon={["fab", "yarn"]} /> Yarn package manager, exposure to NPM</p>
+            <p><FontAwesomeIcon icon={["fab", "react"]} /> React</p>
+            <p><FontAwesomeIcon icon={["fab", "js-square"]} /> JavaScript ES6</p>
+            <p><FontAwesomeIcon icon={["fab", "html5"]} /> HTML5</p>
+            <p><FontAwesomeIcon icon={["fab", "css3-alt"]} /> CSS3</p>
+            <p><FontAwesomeIcon icon={["fab", "sass"]} /> SASS</p>
+            <p><FontAwesomeIcon icon={["fab", "bootstrap"]} /> Bootstrap</p>
+          </div>
+          <div className={styles.right}>
+            <p>Mobile first web-development</p>
+            <p>Unit testing with Jest and Enzyme</p>
+            <p>Firebase BaaS and CRUD</p>
+            <p>Authentication</p>
+            <p>REST APIs</p>
+            <p>CI/CD Travis CI</p>
+            <br></br>
+            <p>Excellent presentation skills</p>
+            <p>Technical writing</p>
+            <p></p>
+          </div>
+        </section>
+        <br></br>
+        <p>Exposure and working knowledge of TypeScript, Agile workflow (Kanban and Scrum), and Test-Driven Development.</p>
+
+
+
+
+
       </div>
     </section>
   );
