@@ -45,7 +45,7 @@ const alleywayInvaders = new Project (
     "https://jamesnowecki.github.io/alleyway-invaders/",
     "https://github.com/jamesnowecki/alleyway-invaders",
     "Example 5-hour timed tech-test to demonstrate JS OOP concepts.",
-    "This was our first timed tech test. We were required to take an OOP approach, creating different types of ships and apply damage at random. Once a ship's HP reached 0 it should not be hit again, and the death of the mothership should cause all the ships to die. It was specified this challenge needed to be completed within a single HTML file in under 150 lines of code. Styling was unimportant.",
+    "This was our first timed tech test. We were required to take an OOP approach, creating different types of ships and apply damage at random. Once a ship's HP reached 0 it should not be hit again, and the death of the mothership should cause all the ships to die. It was specified this challenge needed to be completed within a single HTML file in under 150 lines of code. Styling was unimportant for the brief, but has been added as an extension.",
     [<FontAwesomeIcon icon={["fab", "js-square"]} />, <FontAwesomeIcon icon={["fab", "html5"]} />, <FontAwesomeIcon icon={["fab", "css3-alt"]} />],
 
 );

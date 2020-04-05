@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.9b5ff537.chunk.css",
-    "main.js": "/static/js/main.f4fe25ff.chunk.js",
-    "main.js.map": "/static/js/main.f4fe25ff.chunk.js.map",
+    "main.css": "/static/css/main.a97a0526.chunk.css",
+    "main.js": "/static/js/main.02eb136b.chunk.js",
+    "main.js.map": "/static/js/main.02eb136b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c4d7dc80.js",
     "runtime-main.js.map": "/static/js/runtime-main.c4d7dc80.js.map",
     "static/js/2.3f8af446.chunk.js": "/static/js/2.3f8af446.chunk.js",
     "static/js/2.3f8af446.chunk.js.map": "/static/js/2.3f8af446.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.1c97f15ae9ba43f5f4a17689767aa379.js": "/precache-manifest.1c97f15ae9ba43f5f4a17689767aa379.js",
+    "precache-manifest.aa1f9426be76e5c47c0d13ed42b07d96.js": "/precache-manifest.aa1f9426be76e5c47c0d13ed42b07d96.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.9b5ff537.chunk.css.map": "/static/css/main.9b5ff537.chunk.css.map",
+    "static/css/main.a97a0526.chunk.css.map": "/static/css/main.a97a0526.chunk.css.map",
     "static/js/2.3f8af446.chunk.js.LICENSE.txt": "/static/js/2.3f8af446.chunk.js.LICENSE.txt",
     "static/media/NoweckiThesis_PhD_2014.pdf": "/static/media/NoweckiThesis_PhD_2014.62aeb849.pdf",
     "static/media/alleyway-invaders-pic.jpg": "/static/media/alleyway-invaders-pic.728ef8a5.jpg",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.c4d7dc80.js",
     "static/js/2.3f8af446.chunk.js",
-    "static/css/main.9b5ff537.chunk.css",
-    "static/js/main.f4fe25ff.chunk.js"
+    "static/css/main.a97a0526.chunk.css",
+    "static/js/main.02eb136b.chunk.js"
   ]
 }
