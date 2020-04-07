@@ -40,6 +40,8 @@ const ProjectsPage = () => {
             <p>Authentication</p>
             <p>REST APIs</p>
             <p>CI/CD Travis CI</p>
+            <p>Remote working</p>
+
             <br></br>
             <p>Excellent presentation skills</p>
             <p>Technical writing</p>
