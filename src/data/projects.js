@@ -4,6 +4,7 @@ import SheaFacePic from '../assets/strange-eyes.jpg';
 import MorseCodePic from '../assets/morse-code-pic.jpg';
 import SantoriniPic from '../assets/santorini-pic.jpg';
 import AlleywayInvadersPic from '../assets/alleyway-invaders-pic.jpg';
+import NotFlixPic from '../assets/notflix-pic.png';
 import React from "react";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 
@@ -81,7 +82,17 @@ const sheaFace = new Project (
     [<FontAwesomeIcon icon={["fab", "react"]} />, <FontAwesomeIcon icon={["fab", "js-square"]} />],
 );
 
-const projectArray = [vojo, santorini, alleywayInvaders, morseCode, toDoList, sheaFace];
+const notflix = new Project (
+    "NotFlix",
+    NotFlixPic,
+    "https://notflix.jamesnowecki.com/",
+    "https://github.com/jamesnowecki/movie-database",
+    "App to practice obtaining information from an API, and using Bootstrap in React.",
+    "An app to test ability to call an API to fetch information, allow users to filter through this information, and display that information dynamically to the page, passing it in as props to components. The user needed to be able to search the database by name, filter the returned films by year, and fetch the API again for further information on a film if they wanted.",
+    [<FontAwesomeIcon icon={["fab", "react"]} />, <FontAwesomeIcon icon={["fab", "js-square"]} />, <FontAwesomeIcon icon={["fab", "bootstrap"]} />],
+)
+
+const projectArray = [vojo, santorini, alleywayInvaders, morseCode, toDoList, sheaFace, notflix];
 
 
 export default projectArray;
