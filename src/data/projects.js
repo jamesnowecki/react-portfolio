@@ -81,7 +81,7 @@ const sheaFace = new Project (
     [<FontAwesomeIcon icon={["fab", "react"]} />, <FontAwesomeIcon icon={["fab", "js-square"]} />],
 );
 
-const projectArray = [santorini, morseCode, alleywayInvaders, vojo, toDoList, sheaFace];
+const projectArray = [vojo, santorini, alleywayInvaders, morseCode, toDoList, sheaFace];
 
 
 export default projectArray;
