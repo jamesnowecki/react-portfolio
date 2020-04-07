@@ -13,6 +13,7 @@ const ProjectsPage = () => {
         <p>A desire to reapply the logical skillset developed in <a href={PhDPDF} target="_blank">research</a> and a taste of programming (a small amount of R) led me to undertake a 12-week intensive coding, programming and software development bootcamp at <a href="https://www.nology.io/" target="_blank">_nology</a>, retraining as a software developer. I am particularly interested in automation, testing, applications for AI, and data-driven decision making. Ultimately, however, I enjoy finding novel solutions to interesting problems, something I enjoy through playing boardgames in my spare time.</p>
       </div>
       <h2>Projects</h2>
+      <p>Click a project for more info.</p>
       <div className={styles.projectsBox}>
         {projects.map(project => (
           <div key={project.projectTitle}>
