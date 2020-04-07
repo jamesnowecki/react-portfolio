@@ -15,16 +15,16 @@ const ProfileBar = () => {
       <h2 className={styles.job}>SOFTWARE <span>DEVELOPER</span></h2>
       <h2>
         <section className={styles.skillsGrid}>
-        <div className={styles.cell}>
+        <div className={styles.linkCell}>
           <a href="https://jamesnowecki.com"><FontAwesomeIcon icon={["fas", "home"]} /></a>
         </div>
-        <div className={styles.cell}>
+        <div className={styles.linkCell}>
           <a href={CVPdf} target="_blank"><FontAwesomeIcon icon={["fas", "file-pdf"]} /></a>
         </div>
-        <div className={styles.cell}>
+        <div className={styles.linkCell}>
           <a href="https://www.linkedin.com/in/jamesnowecki/" target="_blank"><FontAwesomeIcon icon={["fab", "linkedin"]} /></a>
         </div>
-        <div className={styles.cell}>
+        <div className={styles.linkCell}>
           <a href="https://github.com/jamesnowecki" target="_blank"><FontAwesomeIcon icon={["fab", "github-square"]} /></a>
         </div>
         </section>
