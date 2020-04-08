@@ -25,7 +25,7 @@ const ProjectsPage = () => {
         <h2>Experience</h2>
         <section className={styles.stack}>
           <div>
-            <p><FontAwesomeIcon icon={["fab", "git-alt"]} /> Source control with Git, GitHub flow</p>
+            <p><FontAwesomeIcon icon={["fab", "git-alt"]} /> Version control with Git, GitHub flow</p>
             <p><FontAwesomeIcon icon={["fab", "yarn"]} /> Yarn package manager, exposure to NPM</p>
             <p><FontAwesomeIcon icon={["fab", "react"]} /> React</p>
             <p><FontAwesomeIcon icon={["fab", "js-square"]} /> JavaScript ES6</p>
