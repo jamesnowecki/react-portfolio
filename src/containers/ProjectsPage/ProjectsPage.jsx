@@ -50,7 +50,7 @@ const ProjectsPage = () => {
           </div>
         </section>
         <br></br>
-        <p>Exposure and working knowledge of TypeScript, Agile workflow (Kanban and Scrum), and Test-Driven Development.</p>
+        <p>Exposure and working knowledge of TypeScript, Node.js, Express.js, Agile workflow (Kanban and Scrum), and Test-Driven Development.</p>
 
 
 
