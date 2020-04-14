@@ -86,7 +86,7 @@ const ProjectsPage = () => {
         <br></br>
         <p>
           Exposure to and working knowledge of TypeScript, Node.js, Express.js,
-          Material UI, React-Chart-JS2 , Agile workflow (Kanban and Scrum), and
+          Material UI, React-Chart-JS2, Agile workflow (Kanban and Scrum), and
           Test-Driven Development.
         </p>
       </div>
