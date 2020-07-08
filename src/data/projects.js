@@ -54,7 +54,7 @@ const alleywayInvaders = new Project (
 const vojo = new Project (
     "Vojo",
     VojoPic,
-    "https://app.vojo.health/landing-page",
+    "https://app.vojo.health/",
     "https://github.com/nology-tech/vojo",
     "Group client project build with React, deployed and hosted with Firebase.",
     "Our client project, completed through pair-programming over 4 weeks. An app to take input from the user in the form of questionnaires, associate these answers and a DNA swab kit with a back end algorithm via an API to generate personalised dietary and health advice. This advice is then dynamically displayed back to the user via the front end. I completed the setup of the CI/CD pipeline, a number of the components, the DNA kit integration functionality with the database and the routing and authentication. I was recruited to work on Vojo in a freelance capacity after the completion of the bootcamp to continue its development.",
