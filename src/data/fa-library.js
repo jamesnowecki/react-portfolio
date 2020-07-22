@@ -9,7 +9,11 @@ import { faGithubSquare, faLinkedin,faHtml5,
     faSass,
     faReact,
     faBootstrap,
-    faYarn } from "@fortawesome/free-brands-svg-icons";
+    faYarn,
+    faNodeJs,
+    faAngular
+     } from "@fortawesome/free-brands-svg-icons";
+
 import { faHome, faFile, faFilePdf} from "@fortawesome/free-solid-svg-icons";
 
 
@@ -33,4 +37,6 @@ export default library.add(
     faGit,
     faGitAlt,
     faGitSquare,
+    faNodeJs,
+    faAngular
 );

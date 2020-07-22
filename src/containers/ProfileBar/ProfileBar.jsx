@@ -44,7 +44,7 @@ const ProfileBar = () => {
             <FontAwesomeIcon icon={["fab", "css3-alt"]} />
           </div>
           <div className={styles.cell}>
-            <FontAwesomeIcon icon={["fab", "yarn"]} />
+            <FontAwesomeIcon icon={["fab", "angular"]} />
           </div>
           <div className={styles.cell}>
             <FontAwesomeIcon icon={["fab", "react"]} />
@@ -53,7 +53,7 @@ const ProfileBar = () => {
             <FontAwesomeIcon icon={["fab", "sass"]} />
           </div>
           <div className={styles.cell}>
-            <FontAwesomeIcon icon={["fab", "bootstrap"]} />
+            <FontAwesomeIcon icon={["fab", "node-js"]} />
           </div>
         </section>
       </h2>

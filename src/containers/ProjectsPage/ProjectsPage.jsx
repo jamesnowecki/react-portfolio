@@ -53,7 +53,13 @@ const ProjectsPage = () => {
               <FontAwesomeIcon icon={["fab", "react"]} /> React
             </p>
             <p>
+              <FontAwesomeIcon icon={["fab", "angular"]} /> Angular
+            </p>
+            <p>
               <FontAwesomeIcon icon={["fab", "js-square"]} /> JavaScript ES6
+            </p>
+             <p>
+              <FontAwesomeIcon icon={["fab", "node-js"]} /> Node.js with Express
             </p>
             <p>
               <FontAwesomeIcon icon={["fab", "html5"]} /> HTML5
@@ -85,7 +91,7 @@ const ProjectsPage = () => {
         </section>
         <br></br>
         <p>
-          Exposure to and working knowledge of TypeScript, Node.js, Express.js,
+          Exposure to and working knowledge of TypeScript,
           Material UI, React-Chart-JS2, Agile workflow (Kanban and Scrum), and
           Test-Driven Development.
         </p>
