@@ -46,10 +46,6 @@ const ProjectsPage = () => {
               Git, GitHub flow
             </p>
             <p>
-              <FontAwesomeIcon icon={["fab", "yarn"]} /> Yarn package manager,
-              exposure to NPM
-            </p>
-            <p>
               <FontAwesomeIcon icon={["fab", "react"]} /> React
             </p>
             <p>
@@ -72,6 +68,9 @@ const ProjectsPage = () => {
             </p>
             <p>
               <FontAwesomeIcon icon={["fab", "bootstrap"]} /> Bootstrap
+            </p>
+             <p>
+              <FontAwesomeIcon icon={["fab", "yarn"]} /> Yarn and NPM package managers
             </p>
           </div>
           <div className={styles.right}>
